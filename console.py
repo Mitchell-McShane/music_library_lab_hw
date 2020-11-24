@@ -17,4 +17,7 @@ album_repository.save(album_1)
 album_2 = Album("Never Not Together", artist_1, "Rock")
 album_repository.save(album_2)
 
+for album in album_repository.select_all():
+    print(album.__dict__)
+
 pdb.set_trace()
