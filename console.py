@@ -14,5 +14,7 @@ artist_repository.save(artist_1)
 
 album_1 = Album("You Know Who You Are", artist_1, "Rock")
 album_repository.save(album_1)
+album_2 = Album("Never Not Together", artist_1, "Rock")
+album_repository.save(album_2)
 
 pdb.set_trace()
